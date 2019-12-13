@@ -1,5 +1,6 @@
 # Residual Neural Networks
 ### [ResNet on CIFAR10 dataset, CS273A Project]
+### [Lakshmi, Nevedha, Shreyas]
 
 
 ![Alt text](https://github.com/hard-fault/Residual_Neural_Networks/blob/master/rsrc/cifar-10.png)
