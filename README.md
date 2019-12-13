@@ -1,10 +1,10 @@
 # Residual Neural Networks
-### ResNet on CIFAR10 dataset, CS273A Project
+### [ResNet on CIFAR10 dataset, CS273A Project]
 
 
 
-### Setting up the environment for ResNet
-#### Dependencies:
+## Setting up the environment for ResNet
+### Dependencies:
 1. python3
 ```sh
 sudo apt-get install python3
