@@ -2,6 +2,8 @@
 ### [ResNet on CIFAR10 dataset, CS273A Project]
 
 
+![Alt text](https://https://github.com/hard-fault/Residual_Neural_Networks/tree/master/rsrc/cifar-10.png)
+[CIFAR-10] (https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Setting up the environment for ResNet
 ### Dependencies:
