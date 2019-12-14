@@ -33,7 +33,6 @@ parser.add_argument('-d','--dataset', type=str, default="cifar10", metavar='STRI
 args = parser.parse_args()
 
 stack_n            = args.stack_n
-#layers             = 6 * stack_n + 2
 layers             = 32
 num_classes        = 10
 img_rows, img_cols = 32, 32
@@ -144,10 +143,6 @@ if __name__ == '__main__':
     img_input = Input(shape=(img_rows,img_cols,img_channels))
     output    = residual_network(img_input,num_classes,stack_n)
     resnet    = Model(img_input, output)
-
-    # print model architecture if you need.
-    # print(resnet.summary())
-
 
     # set optimizer
     sgd = optimizers.SGD(lr=.1, momentum=0.9, nesterov=True)
